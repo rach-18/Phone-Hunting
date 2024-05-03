@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1D2735;
+    color: #A6ADBA;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 6rem;
+}
+
+.hot-gadgets {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.blue-btn {
+    background-color: #662cc9;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.blue-btn:hover {
+    background-color: #5616C5;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.hero-title {
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.hero-para {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: center;
+    width: 55%;
+    margin-top: 0.8rem;
+}
+
+.hero button {
+    margin-top: 1.5rem;
+}
+
+.phone-list {
+    background-color: #1D232A;
+    padding-bottom: 4rem;
+}
+
+.images {
+    position: absolute;
+    bottom: -60%;
+}
+
+.searching {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searching p {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 25rem;
+    margin-bottom: 3rem;
+}
+
+form {
+    display: flex;
+    gap: 0.8rem;
+}
+
+form input {
+    font-size: 1rem;
+    background-color: #1D232A;
+    border: 1px solid #6b6d70;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+    padding-left: 3.5rem;
+}
+
+.sub-phones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 8rem 0; */
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: 1rem;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.phone-detail {
+    width: 65%;
+}
+
+.show-all-btn {
+    font-size: 1.2rem;
+    display: none;
+}
+
+.footer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 8rem 0;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hash {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.footer-text {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.copyright {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Modal container */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+    /* pointer-events: none; */
+}
+
+/* Modal box */
+.modal-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D232A;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 20px;
+    text-align: center;
+    width: 50%; /* Set width */
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+/* Modal content (image and text) */
+.modal-box img {
+    height: auto; /* Auto height to maintain aspect ratio */
+    margin-bottom: 10px; /* Add space below image */
+}
+
+/* Close button */
+.close-btn {
+    background-color: rgb(252, 32, 32);
+    margin-top: 2rem;
+}
+
+.close-btn:hover {
+    background-color: #15191E;
+}
+  
